@@ -1,0 +1,37 @@
+Métodos de solicitação HTTP
+
+HTTP define um conjunto de métodos de solicitação para indicar a ação desejada a ser executada 
+para um determinado recurso. Embora também possam ser substantivos, esses métodos de solicitação 
+às vezes são chamados de verbos HTTP. Cada um deles implementa uma semântica diferente, mas algumas 
+características comuns são compartilhadas por um grupo deles: por ex. um método de solicitação pode 
+ser seguro, idempotente ou armazenável em cache.
+
+GET
+O método GET solicita uma representação do recurso especificado. As solicitações que usam 
+GET devem recuperar apenas dados.
+
+HEAD
+O método HEAD solicita uma resposta idêntica a uma solicitação GET, mas sem o corpo da resposta.
+
+POST
+O método POST submete uma entidade ao recurso especificado, muitas vezes 
+causando uma mudança de estado ou efeitos colaterais no servidor.
+
+PUT
+O método PUT substitui todas as representações atuais do recurso de destino pela carga útil da 
+solicitação.
+
+DELETE
+O método DELETE exclui o recurso especificado.
+
+CONNECT
+O método CONNECT estabelece um túnel para o servidor identificado pelo recurso de destino.
+
+OPTIONS
+O método OPTIONS descreve as opções de comunicação para o recurso de destino.
+
+TRACE
+O método TRACE executa um teste de loopback de mensagem ao longo do caminho para o recurso de destino.
+
+PATCH
+O método PATCH aplica modificações parciais a um recurso.
