@@ -1,0 +1,12 @@
+https://www.selenium.dev/documentation/webdriver/
+
+
+Configuração
+
+Para que o Selenium se conecte a um aplicativo da Web, ele precisará usar um driver de navegador 
+para enviar e receber informações do aplicativo. Os navegadores são constantemente atualizados e 
+aprimorados, o que significa que a funcionalidade pode mudar a qualquer momento. O Firefox, 
+juntamente com o GeckoDriver, é bastante tolerante quanto às versões que o senhor decide usar; no 
+entanto, o Chrome exige que a versão principal do ChromeDriver sempre corresponda à versão 
+principal do navegador Chrome. As atualizações do navegador podem ocorrer silenciosamente, 
+portanto, tenha em mente esses pontos caso surjam problemas.
